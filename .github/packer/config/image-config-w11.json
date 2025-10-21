@@ -1,0 +1,18 @@
+{
+  "region": "eastus",
+  "patches": [],
+  "software": [
+    {
+      "name": "GoogleChrome",
+      "url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
+      "args": "/silent /install"
+    },
+    {
+      "name": "7zip",
+      "url": "https://www.7-zip.org/a/7z1900-x64.msi",
+      "args": "/quiet"
+    }
+  ],
+  "cleanup": true,
+  "sysprep": true
+}

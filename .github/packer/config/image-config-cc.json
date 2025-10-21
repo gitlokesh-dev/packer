@@ -1,0 +1,18 @@
+{
+  "region": "eastus",
+  "patches": [],
+  "software": [
+    {
+      "name": "CitrixConnector",
+      "url": "https://downloads.citrix.com/CloudConnectorInstaller.exe",
+      "args": "/quiet /auto"
+    }
+  ],
+  "domain_join": {
+    "domain": "corp.example.com",
+    "user": "domainjoinuser",
+    "password_secret_name": "domain-join-password"
+  },
+  "cleanup": true,
+  "sysprep": true
+}
